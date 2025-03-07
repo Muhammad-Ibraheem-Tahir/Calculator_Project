@@ -9,7 +9,6 @@ class Program
 
         Console.Write("Enter second number: ");
         double b = Convert.ToDouble(Console.ReadLine());
-
         if (b != 0)
         {
             double result = a / b;
@@ -19,5 +18,8 @@ class Program
         {
             Console.WriteLine("Error: Division by zero is not allowed.");
         }
+        double result = a * b;
+        Console.WriteLine("Result: " + result);
+
     }
 }
