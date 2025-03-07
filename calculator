@@ -9,8 +9,8 @@ class Program
 
         Console.Write("Enter second number: ");
         double b = Convert.ToDouble(Console.ReadLine());
-
         double result = a * b;
+        double result = a - b;
         Console.WriteLine("Result: " + result);
     }
 }
