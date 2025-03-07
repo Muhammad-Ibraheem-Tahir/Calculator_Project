@@ -5,6 +5,7 @@ class Program
     static void Main()
     {
         Console.Write("Enter first number 2nd change2nd(change): ");
+        Console.Write("Enter first number with change1st(change): ");
         double a = Convert.ToDouble(Console.ReadLine());
 
         Console.Write("Enter second number: ");
