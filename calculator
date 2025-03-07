@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        Console.Write("Enter first number: ");
+        Console.Write("Enter first number 2nd change2nd(change): ");
         double a = Convert.ToDouble(Console.ReadLine());
 
         Console.Write("Enter second number: ");
